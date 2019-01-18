@@ -19,7 +19,7 @@
 ### 修改幅度
 
 * Portal
-  * System Setting 頁面
+  * System Setting 頁面 UI: [https://balsamiq.cloud/sxls649/plenlvu](https://balsamiq.cloud/sxls649/plenlvu)
   * System/params API
   * 修改完通知dataworker
 * Postgresql
