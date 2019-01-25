@@ -24,7 +24,8 @@
   * 修改完通知dataworker
 * Postgresql
   * sys\_paramters
-    * SSO\_ACOUNT \({username}/{password}\)
+    * SSO\_USERNAME
+    * SSO\_PASSWORD
     * DASHBOARD\_GRAFANA\_URL
     * NOTIFICATION\_SERVICE\_URL
 * 增加system\_setting permission
