@@ -28,6 +28,7 @@
     * SSO\_PASSWORD
     * DASHBOARD\_GRAFANA\_URL
     * NOTIFICATION\_SERVICE\_URL
+    * MESSAGE\_RULE\_MONGODB\_SETTING \(for 客製化mongodb schema\)
 * 增加system\_setting permission
 
 ### 
