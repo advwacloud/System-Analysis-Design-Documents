@@ -7,7 +7,7 @@
 * 讓開發者可以預先設定好訊息範本, 好處是串接的應用程式不需要額外開介面定義訊息格式
 * 範本編輯介面
   * Email: 一般文字編輯器和HTML編輯器兩種
-    * HTML編輯器: https://surmon-china.github.io/vue-quill-editor/
+    * HTML編輯器: [https://surmon-china.github.io/vue-quill-editor/](https://surmon-china.github.io/vue-quill-editor/)
   * LINE: 一般文字編輯器
   * WeChat: 一般文字編輯器
   * Webhook: 一般文字編輯器 \(已完成\)
@@ -24,8 +24,6 @@
     * send: {name: 'Steven'}
 
 ### 沿伸議題
-
-
 
 
 
