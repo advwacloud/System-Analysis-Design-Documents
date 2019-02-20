@@ -1,4 +1,4 @@
-# System Setting \(for WISE-PaaS SCADA\)
+# System Setting
 
 ---
 
