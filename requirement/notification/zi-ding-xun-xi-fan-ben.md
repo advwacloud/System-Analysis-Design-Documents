@@ -8,6 +8,7 @@
 * 範本編輯介面
   * Email: 一般文字編輯器和HTML編輯器兩種
     * HTML編輯器: [https://surmon-china.github.io/vue-quill-editor/](https://surmon-china.github.io/vue-quill-editor/)
+    * 一般文字編輯器: text field就行, 如Wehook中填JSON格式的body欄位
   * LINE: 一般文字編輯器
   * WeChat: 一般文字編輯器
   * Webhook: 一般文字編輯器 \(已完成\)
