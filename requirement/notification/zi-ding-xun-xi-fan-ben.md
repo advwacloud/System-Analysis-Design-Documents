@@ -22,6 +22,7 @@
   * 根據send傳入的變數從template找出對應的將其取代
     * template: &lt;b&gt;Hello {name} !&lt;/b&gt;
     * send: {name: 'Steven'}
+    * replaced result: &lt;b&gt;Hello Steven !&lt;/b&gt;
 
 ### 沿伸議題
 
