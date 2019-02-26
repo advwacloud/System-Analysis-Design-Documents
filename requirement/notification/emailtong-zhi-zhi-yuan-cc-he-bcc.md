@@ -1,4 +1,4 @@
-# 自訂訊息範本
+# Email通知支援CC和BCC
 
 ---
 
@@ -10,11 +10,11 @@
 
 * Portal
   * 頁面 UI: [https://balsamiq.cloud/sxls649/pjq4znk](https://balsamiq.cloud/sxls649/pjq4znk)
-* API & Postgresql
-  * field欄位\(string\)
-    * to
-    * cc
-    * bcc
+* API
+  * field欄位
+    * To
+    * CC
+    * BCC
 
 ### 沿伸議題
 
