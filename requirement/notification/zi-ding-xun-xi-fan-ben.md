@@ -16,7 +16,7 @@
 ### 修改幅度
 
 * Portal
-  * 頁面 UI: [https://balsamiq.cloud/sxls649/plenlvu](https://balsamiq.cloud/sxls649/plenlvu)
+  * 頁面 UI: [https://balsamiq.cloud/sxls649/pjq4znk](https://balsamiq.cloud/sxls649/pjq4znk)
 * API & Postgresql
   * template欄位
 * Utility
