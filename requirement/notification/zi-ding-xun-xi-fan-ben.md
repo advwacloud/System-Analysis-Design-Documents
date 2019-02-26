@@ -6,19 +6,20 @@
 
 * 讓開發者可以預先設定好訊息範本, 好處是串接的應用程式不需要額外開介面定義訊息格式
 * 範本編輯介面
-  * Email: 一般文字編輯器和HTML編輯器兩種
+  * Email: 一般文字編輯器和HTML編輯器兩種 \(若HTML編輯器可以支援純文字則一般文字編輯器可以省略\)
     * HTML編輯器: [https://surmon-china.github.io/vue-quill-editor/](https://surmon-china.github.io/vue-quill-editor/)
     * 一般文字編輯器: text field就行, 如Wehook中填JSON格式的body欄位
-  * LINE: 一般文字編輯器
-  * WeChat: 一般文字編輯器
+  * LINE: 一般文字編輯器: text field就行, 如Wehook中填JSON格式的body欄位
+  * WeChat: 一般文字編輯器: text field就行, 如Wehook中填JSON格式的body欄位
   * Webhook: 一般文字編輯器 \(已完成\)
 
 ### 修改幅度
 
 * Portal
   * 頁面 UI: [https://balsamiq.cloud/sxls649/pjq4znk](https://balsamiq.cloud/sxls649/pjq4znk)
+    * Level Setting改成Basic Setting, template放於Basic Setting中
 * API & Postgresql
-  * template欄位
+  * template欄位\(string\)
 * Utility
   * 根據send傳入的變數從template找出對應的將其取代
     * template: &lt;b&gt;Hello {name} !&lt;/b&gt;
