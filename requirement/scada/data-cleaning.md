@@ -9,13 +9,17 @@
 ### 修改幅度
 
 * Portal
-  * System Setting 加入參數 DATA\_CLEANING\_INTERVAL
+  * System Setting 加入參數
+    * DATA\_CLEANING\_INTERVAL
+    * DATA\_CLEANING\_ENABLED
   * System/params API
   * 修改完通知dataworker
 * Postgresql
   * sys\_paramters
     * DATA\_CLEANING\_INTERVAL
       * 單位:天, 預設值30
+    * DATA\_CLEANING\_ENABLED
+      * 預設值false
 
 
 
