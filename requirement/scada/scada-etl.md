@@ -18,6 +18,30 @@
   * 先不考慮前一日以前的資料處理, 避免處理過於耗時
 * Utility
   * 根據intervalType決定去哪個collection撈取資料
+  * mongodb schema \(分時日的都相同\)
+    ```
+    let histMinDataSchema = new Schema({
+      _id: {
+        type: Schema.Types.ObjectId
+      },
+      s: String,
+      t: String,
+      sum: Object,
+      count: Object,
+      avg: Object,
+      max: Object,
+      min: Object,
+      last: Object,
+      ts: {
+        type: Date,
+        default: Date.now
+      }
+    }, { collection: 'scada_HistMinData', versionKey: false });
+
+    histMinDataSchema.index({ _id: 1 }, { unique: true });
+
+    mongoose.model('HistMinData', histMinDataSchema);
+    ```
 
 ### 沿伸議題
 
