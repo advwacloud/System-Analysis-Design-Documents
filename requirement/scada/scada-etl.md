@@ -17,8 +17,10 @@
     * 每一個整日執行, 將前一日的歷史資料分別計算LAST, AVG, MAX, MIN後, 另存於scada\_HistDayData
   * 先不考慮前一日以前的資料處理, 避免處理過於耗時
 * Utility
+
   * 根據intervalType決定去哪個collection撈取資料
   * mongodb schema \(分時日的都相同\)
+
     ```
     let histMinDataSchema = new Schema({
       _id: {
