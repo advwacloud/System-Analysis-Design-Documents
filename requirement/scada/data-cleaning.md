@@ -16,9 +16,10 @@
 
     * DATA\_CLEANING\_ENABLED
 
-    * DATA\_CLEANING\_TIME
+    * DATA\_CLEANING\_TIME \(Time picker顯示\)
 
   * System/params API
+
   * 修改完通知dataworker
 
 * Postgresql
@@ -34,6 +35,7 @@
       * 預設值true
 
     * DATA\_CLEANING\_TIME
+
       * 預設值01:05 \(24小時制\)
 
 
