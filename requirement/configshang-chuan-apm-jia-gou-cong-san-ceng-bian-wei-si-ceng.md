@@ -94,10 +94,13 @@
       ```
 
     * 產生SCADA config部分
+
       * 先不修改
 
 * DataAgent
+
   * 一個EdgeX改成一個manager減少iothub的connection數
+
 * mongodb schema - wisepaasSetting
 
 ```
@@ -176,6 +179,8 @@
 ```
 
 ### 沿伸議題
+
+* EdgeX對應到SCADA的project層級?
 
 
 
