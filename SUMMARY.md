@@ -12,5 +12,7 @@
   * [Notification](requirement/notification.md)
     * [自訂訊息範本](requirement/notification/zi-ding-xun-xi-fan-ben.md)
     * [Email通知支援CC和BCC](requirement/notification/emailtong-zhi-zhi-yuan-cc-he-bcc.md)
+  * EdgeX
+    * [Config上傳APM架構從三層變為四層](requirement/configshang-chuan-apm-jia-gou-cong-san-ceng-bian-wei-si-ceng.md)
 * [Completed](completed.md)
 
