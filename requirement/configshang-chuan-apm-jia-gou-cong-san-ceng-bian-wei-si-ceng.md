@@ -64,15 +64,15 @@
               "gatewayId": "xxx",
               "gatewayName": "xxx",
               "iotSense": {
-                "type": "(RMM/SCADA/EdgeX/Others)",
-                "groupId": "groupId(RMM groupId/ScadaId/APMId)",
-                "groupName": "groupName(RMM groupName/ScadaName)"
+                "type": "EdgeX",
+                "groupId": "{gatewayId}",
+                "groupName": "{gatewayName}"
               },
               "devices": [
                 {
-                  "deviceId": "Scada/RMM deviceId",
-                  "deviceName": "exampleDeviceName(RMM: AgentName/Scada: deviceName)",
-                  "deviceProfileName": "xx",
+                  "deviceId": "{deviceId}",
+                  "deviceName": "{deviceName}",
+                  "deviceProfileName": "{deviceProfileName}",
                   "tags": [
                     {
                       "name": "temp",
