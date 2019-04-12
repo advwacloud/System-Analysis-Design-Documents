@@ -25,24 +25,25 @@
       {
         "edgeSource": "edgeXSource",
         "command": 101,
-        "ts": 123456,
+        "ts": 1555061051,
         "profileInfo": {
-          "profileName": "xx",
-          "description": "this is an example model",
+          "profileName": "EdgeXProfile_{apmId}",
+          "apmId": "{apmId}",
+          "description": "",
           "gateways": [
             {
               "gatewayId": "xxx",
               "gatewayName": "xxx",
               "iotSense": {
                 "type": "EdgeX",
-                "groupId": "APMId",  // EdgeX填写APM ID
-                "groupName": "groupName"
+                "groupId": "{gatewayId}",
+                "groupName": "{gatewayName}"
               },
               "devices": [
                 {
-                  "deviceId": "Scada/RMM deviceId",
-                  "deviceName": "exampleDeviceName(RMM: AgentName/Scada: deviceName)",
-                  "deviceProfileName": "xx",
+                  "deviceId": "{deviceId}",
+                  "deviceName": "{deviceName}",
+                  "deviceProfileName": "{deviceProfileName}",
                   "tags": [
                     {
                       "name": "temp",
@@ -63,9 +64,9 @@
               "gatewayId": "xxx",
               "gatewayName": "xxx",
               "iotSense": {
-                "type": "EdgeX",
-                "groupId": "APMId",  // EdgeX填写APM ID
-                "groupName": "groupName"
+                "type": "(RMM/SCADA/EdgeX/Others)",
+                "groupId": "groupId(RMM groupId/ScadaId/APMId)",
+                "groupName": "groupName(RMM groupName/ScadaName)"
               },
               "devices": [
                 {
@@ -100,6 +101,15 @@
 * DataAgent
 
   * 一個EdgeX改成一個manager減少iothub的connection數
+
+* mongodb schema - srpConfig
+
+```
+{
+  "_id" : ObjectId("5ca4823c010bd545936ba583"),
+  "payload" : ""
+}
+```
 
 * mongodb schema - wisepaasSetting
 
