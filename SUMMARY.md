@@ -9,6 +9,7 @@
     * [資料重覆性檢查機制](requirement/scada/zi-liao-zhong-fu-xing-jian-cha-ji-zhi.md)
     * [使用WebSocket提升RealData和AlarmStatus效能](requirement/scada/shi-yong-websocket-ti-sheng-realdata-he-alarmstatus-xiao-neng.md)
     * [歷史資料預處理](requirement/scada/scada-etl.md)
+    * [Data Archive](requirement/scada/data-archive.md)
   * [Notification](requirement/notification.md)
     * [自訂訊息範本](requirement/notification/zi-ding-xun-xi-fan-ben.md)
     * [Email通知支援CC和BCC](requirement/notification/emailtong-zhi-zhi-yuan-cc-he-bcc.md)
