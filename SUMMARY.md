@@ -15,6 +15,7 @@
     * [Email通知支援CC和BCC](requirement/notification/emailtong-zhi-zhi-yuan-cc-he-bcc.md)
     * [整合阿里釘釘](requirement/notification/zheng-he-a-li-ding-ding.md)
     * [整合WhatsApp](requirement/notification/zheng-he-whatsapp.md)
+    * [Email支援夾帶附檔](requirement/notification/emailzhi-yuan-jia-dai-fu-dang.md)
   * EdgeX
     * [Config上傳APM架構從三層變為四層](requirement/configshang-chuan-apm-jia-gou-cong-san-ceng-bian-wei-si-ceng.md)
 * [Completed](completed.md)
