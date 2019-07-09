@@ -10,7 +10,7 @@
 
 * API
 
-  * files \(object array\)
+  * 參數 files \(object array\)
 
     * name: 檔案名稱
     * content: 呼叫者將內容轉成binary後用Base64轉碼
