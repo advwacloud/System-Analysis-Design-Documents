@@ -9,8 +9,13 @@
 ### 修改幅度
 
 * API
-  * files \(array\)
-    * 檔案內容用Base64轉碼, 
+  * files \(object array\)
+    * name: 檔案名稱
+    * content: 呼叫者將內容轉成binary後用Base64轉碼
+
+    ```
+
+    ```
 
 ### 沿伸議題
 
