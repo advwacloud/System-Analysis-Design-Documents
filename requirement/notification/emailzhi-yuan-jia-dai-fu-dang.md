@@ -10,17 +10,17 @@
 
 * API
 
-  * 參數 files \(object array\)
+  * 參數 attachments \(object array\)
 
     * name: 檔案名稱
     * content: 呼叫者將內容轉成binary後用Base64轉碼, api解碼後發送
 
     ```
-    files: [{
-      "name": "file1",
+    attachments: [{
+      "filename": "file1.png",
       "content":"xxxxxxxx"
     }, {
-      "name": "file2",
+      "filename": "file2.pdf",
       "content":"yyyyyy"
     }]
     ```
