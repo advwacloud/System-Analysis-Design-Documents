@@ -17,6 +17,7 @@
     * [整合WhatsApp](requirement/notification/zheng-he-whatsapp.md)
     * [Email支援夾帶附檔](requirement/notification/emailzhi-yuan-jia-dai-fu-dang.md)
     * [支援SMS簡訊通知](requirement/notification/zhi-yuan-sms-tong-zhi.md)
+    * [訊息重送功能](requirement/notification/xun-xi-zhong-song-gong-neng.md)
   * EdgeX
     * [Config上傳APM架構從三層變為四層](requirement/configshang-chuan-apm-jia-gou-cong-san-ceng-bian-wei-si-ceng.md)
 * [Completed](completed.md)
