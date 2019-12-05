@@ -10,15 +10,17 @@
 
 * Portal前端
 
-  * 增加顯示RP list, 時間不夠的話先不做綁定設備功能
+  * 增加顯示RP list \(類似scada list 表格即可\), 時間不夠的話先不做綁定設備功能
 
 * API
+
   * GET RetentionPolicy
   * GET RetentionPolicy/{name}
   * POST RetentionPolicy
     * { name: "180days", description: "180 days",  duration: 180, devices: \[{ scadaId: "", deviceId: "" }\] }
     * description和devices非必填
   * 必須記錄每個device的RP name在memory, 呼叫utility查詢需要帶入
+
 * Utility
 
   * datastore init 啟動時, 若是用influxdb就先去建立"90days" RP
@@ -30,12 +32,14 @@
   * device config增加RetentionPolicy欄位\(填RP name\), 預設為空
 
 * DB
+
   * retention\_policy\_list
     * name: varchar \(32\)
     * description: varchar \(256\)
     * duration: int, default: 90
   * device\_list.retention\_policy
     * varchar\(32\), deafult: ""
+
 * Worker
   * 接收到config, 寫入rp name到db
   * 必須記錄每個device的RP name在memory, 呼叫utility 寫入時需要帶入
