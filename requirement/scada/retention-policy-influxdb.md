@@ -19,6 +19,7 @@
   * POST RetentionPolicy
     * { name: "180days", description: "180 days",  duration: 180, devices: \[{ scadaId: "", deviceId: "" }\] }
     * description和devices非必填
+  * DELETE RetentionPolicy/{name}
   * 必須記錄每個device的RP name在memory, 呼叫utility查詢需要帶入
 
 * Utility
@@ -41,6 +42,7 @@
     * varchar\(32\), deafult: ""
 
 * Worker
+
   * 接收到config, 寫入rp name到db
   * 必須記錄每個device的RP name在memory, 呼叫utility 寫入時需要帶入
 
