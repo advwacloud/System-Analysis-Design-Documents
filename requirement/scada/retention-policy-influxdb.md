@@ -14,12 +14,15 @@
 
 * API
 
-  * GET RetentionPolicy
-  * GET RetentionPolicy/{name}
-  * POST RetentionPolicy
+  * GET /RetentionPolicy
+  * GET /RetentionPolicy/{name}
+  * POST /RetentionPolicy
     * { name: "180days", description: "180 days",  duration: 180, devices: \[{ scadaId: "", deviceId: "" }\] }
     * description和devices非必填
-  * DELETE RetentionPolicy/{name}
+  * PUT /RetentionPolicy/{name}
+    * { description: "180 days", duration: 180, devices: \[{ scadaId: "", deviceId: "" }\] }
+    * 名字只能新增不能修改
+  * DELETE /RetentionPolicy/{name}
   * 必須記錄每個device的RP name在memory, 呼叫utility查詢需要帶入
 
 * Utility
