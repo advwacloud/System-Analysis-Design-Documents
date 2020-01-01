@@ -10,7 +10,7 @@
 
 * Portal前端
 
-  * 增加顯示RP list \(類似scada list 表格即可\), 時間不夠的話先不做綁定設備功能
+  * 增加顯示RP list \(類似scada list 表格即可\), 並可以綁定設備
 
 * API
 
