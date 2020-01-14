@@ -8,7 +8,6 @@
 
 ### 修改幅度
 
-* 
 ### 沿伸議題
 
 * DeviceId在multi-worker時如何自動產生? 可能每個instance同時都有在處理相同config封包
