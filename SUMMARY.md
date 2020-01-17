@@ -12,6 +12,7 @@
     * [Data Archive](requirement/scada/data-archive.md)
     * [Retention Policy \(Influxdb\)](requirement/scada/retention-policy-influxdb.md)
     * [DeviceId自動生成](requirement/scada/deviceidzi-dong-sheng-cheng.md)
+    * [Scada 上傳封包數量統計](requirement/scada/scada-shang-chuan-feng-bao-shu-liang-tong-ji.md)
   * [Notification](requirement/notification.md)
     * [自訂訊息範本](requirement/notification/zi-ding-xun-xi-fan-ben.md)
     * [Email通知支援CC和BCC](requirement/notification/emailtong-zhi-zhi-yuan-cc-he-bcc.md)
