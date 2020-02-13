@@ -22,6 +22,7 @@
     * [支援SMS簡訊通知](requirement/notification/zhi-yuan-sms-tong-zhi.md)
     * [訊息重送功能](requirement/notification/xun-xi-zhong-song-gong-neng.md)
     * [訊息發送紀錄](requirement/notification/xun-xi-fa-song-ji-lu.md)
+    * [排程發送功能加入起始時間設定](requirement/notification/pai-cheng-fa-song-gong-neng-jia-ru-qi-shi-shi-jian-she-ding.md)
   * EdgeX
     * [Config上傳APM架構從三層變為四層](requirement/configshang-chuan-apm-jia-gou-cong-san-ceng-bian-wei-si-ceng.md)
 * [Completed](completed.md)
