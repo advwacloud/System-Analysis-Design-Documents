@@ -15,15 +15,11 @@
 * API
 
   * 改為根據all\_permission來決定是否要檢查DeviceRight
+  * 將user scope加入到user token cahe來減少DB查詢, 但是如果user scope被調整必須將user token cache整個清除
 
 * DB
 
-  * retention\_policy\_list
-    * name: varchar \(32\)
-    * description: varchar \(256\)
-    * duration: int, default: 90
-  * device\_list.retention\_policy
-    * varchar\(32\), deafult: ""
+  * scope table增加 all\_permission
 
 ### 沿伸議題
 
