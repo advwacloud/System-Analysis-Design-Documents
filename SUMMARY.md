@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Requirement](requirement.md)
-  * [SCADA](requirement/scada.md)
+  * [DataHub](requirement/scada.md)
     * [Alarm Notification 整合](requirement/scada/alarm-notification-zheng-he.md)
     * [System Setting](requirement/system-setting.md)
     * [Data Cleaning](requirement/scada/data-cleaning.md)
@@ -13,6 +13,7 @@
     * [Retention Policy \(Influxdb\)](requirement/scada/retention-policy-influxdb.md)
     * [DeviceId自動生成](requirement/scada/deviceidzi-dong-sheng-cheng.md)
     * [Scada 上傳封包數量統計](requirement/scada/scada-shang-chuan-feng-bao-shu-liang-tong-ji.md)
+    * [增加 all\_permission 的 Privilege 來決定使用者是否有全部設備的存取權限](requirement/scada/zeng-jia-all-permission-de-privilege-lai-jue-ding-shi-yong-zhe-shi-fou-you-quan-bu-she-bei-de-cun-qu-quan-xian.md)
   * [Notification](requirement/notification.md)
     * [自訂訊息範本](requirement/notification/zi-ding-xun-xi-fan-ben.md)
     * [Email通知支援CC和BCC](requirement/notification/emailtong-zhi-zhi-yuan-cc-he-bcc.md)
